@@ -26,7 +26,7 @@ probe obfuscate space.lua 1234567890 protected.lua
 3. Install the command and compile a Castle script:
 
    ```bash
-   node castle-vm-compile.js input.lua protected.lua 1732810323
+   node castle-vm-compile.js input.lua protected.lua 1234567890
    ```
 
 4. Attach the generated `protected.lua` to the actor that should run the input.
@@ -36,7 +36,7 @@ probe obfuscate space.lua 1234567890 protected.lua
 For files produced by this Probe VM compiler:
 
 ```bash
-node probe-deobfuscate.js protected.lua deobfuscated.lua 1732810323
+node probe-deobfuscate.js protected.lua deobfuscated.lua 1234567890
 ```
 
 This restores readable Castle Lua from the encrypted AST. The original comments

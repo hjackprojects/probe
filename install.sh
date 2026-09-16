@@ -4,7 +4,7 @@ set -eu
 # Change this to your public GitHub/jsDelivr path after publishing the ZIP.
 PROBE_ZIP_URL="${PROBE_ZIP_URL:-https://cdn.jsdelivr.net/gh/hjackprojects/probe@main/probe-cli.zip}"
 PROBE_ROOT="${HOME}/.local/share/probe"
-PROBE_BIN="${HOME}/.local/bin"
+PROBE_BIN="${HOME}/.local/probecliv1.2.0"
 PROBE_TEMP="$(mktemp -d)"
 
 cleanup() {
